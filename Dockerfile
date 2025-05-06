@@ -15,4 +15,4 @@ ENV KC_HOSTNAME=localhost
 EXPOSE 8080
 
 ENTRYPOINT ["/opt/keycloak/bin/kc.sh"]
-CMD ["start"]
+CMD ["start-dev"]
