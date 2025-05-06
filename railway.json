@@ -1,0 +1,16 @@
+{
+    "services": [
+      {
+        "name": "keycloak",
+        "source": {
+          "type": "dockerfile",
+          "path": "./Dockerfile"
+        },
+        "envs": {
+          "KEYCLOAK_ADMIN": "admin",
+          "KEYCLOAK_ADMIN_PASSWORD": "admin"
+        }
+      }
+    ]
+  }
+  
